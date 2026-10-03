@@ -22,6 +22,7 @@ menuButton.addEventListener("click", function () {
 });
 
 
+
 /* =====================================================
    CLOSE MENU AFTER CLICK
 ===================================================== */
@@ -41,6 +42,7 @@ navigationLinks.forEach(function (link) {
 });
 
 
+
 /* =====================================================
    REGISTER BUTTON
 ===================================================== */
@@ -56,6 +58,7 @@ registerButton.addEventListener("click", function () {
     );
 
 });
+
 
 
 /* =====================================================
@@ -85,13 +88,14 @@ window.addEventListener("scroll", function () {
 });
 
 
+
 /* =====================================================
    SCROLL REVEAL ANIMATION
 ===================================================== */
 
 const revealElements =
     document.querySelectorAll(
-        ".about-card, .timeline-item, .speaker-card"
+        ".about-card, .timeline-item, .speaker-card, .developer-card"
     );
 
 
@@ -120,6 +124,7 @@ const revealObserver =
         }
 
     );
+
 
 
 revealElements.forEach(function (element) {
